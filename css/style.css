@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #F4FEF8;
-  font-family: 'Lato', sans-serif;
+  background: #f4fef8;
+
+  font-family: "Lato", sans-serif;
   min-height: 100vh;
   margin: 0;
 }
 
 h1 {
   text-align: center;
-  color: #1A2232;
+  color: #1a2232;
 }
 
 h3 {
   text-align: center;
-  color: #1A2232;
+  color: #1a2232;
 }
 
 .container {
@@ -28,7 +29,7 @@ h3 {
 
 .btn {
   cursor: pointer;
-  background-color: #11AE68;
+  background-color: #11ae68;
   border: 0;
   border-radius: 4px;
   color: #fff;
@@ -57,7 +58,7 @@ select:focus {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -800px);
-  background-color: #1A2232;
+  background-color: #1a2232;
   color: #fff;
   padding: 20px;
   border-radius: 5px;
@@ -69,9 +70,9 @@ select:focus {
 }
 
 select {
-  background-color: #D8F6E7;
+  background-color: #d8f6e7;
   border: 0;
-  color: #1A2232;
+  color: #1a2232;
   font-size: 12px;
   height: 30px;
   margin: 0 auto 20px;
@@ -81,7 +82,7 @@ select {
 }
 
 .text-box textarea {
-  border: 1px #F4FEF8 solid;
+  border: 1px #f4fef8 solid;
   border-radius: 4px;
   font-size: 16px;
   padding: 8px;
@@ -117,7 +118,7 @@ main {
 }
 
 .expression-box.active {
-  box-shadow: 0 0 10px 5px #11AE68;
+  box-shadow: 0 0 10px 5px #11ae68;
 }
 
 .expression-box img {
@@ -127,7 +128,7 @@ main {
 }
 
 .expression-box .info {
-  background-color: #11AE68;
+  background-color: #11ae68;
   color: #fff;
   font-size: 18px;
   letter-spacing: 1px;
